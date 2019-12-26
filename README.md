@@ -16,11 +16,18 @@ $ yarn info "@trbl/eslint-config" peerDependencies
 $ yarn add --dev <dependency>@<version> # for each dependency in the above output
 ```
 
-### Composition
+### Usage
+
+There are two configurations for consumption, both of which are packaged together as the default export. *Or they can be selectively extended &mdash; but when doing this, the pathnames [can't be written shorthand](https://eslint.org/docs/developer-guide/shareable-configs#sharing-multiple-configs).*
 
 ```javascript
 {
   "extends": "@trbl"
+  // or selectively extend either config
+  // "extends": [
+  //   "@trbl/eslint-config/configs/base",
+  //   "@trbl/eslint-config/configs/react",
+  // ]
 }
 ```
 
