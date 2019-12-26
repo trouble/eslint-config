@@ -37,7 +37,7 @@ To demo locally, clone the repo and
 
 ```bash
 $ yarn install
-$ yarn run lint
+$ yarn run demo
 ```
 
 ## Contribution
