@@ -36,8 +36,8 @@ There are two configurations for consumption, both of which are packaged togethe
 To demo locally, clone the repo and
 
 ```bash
-$ yarn install
-$ yarn run lint
+$ yarn
+$ yarn demo
 ```
 
 ## Contribution
