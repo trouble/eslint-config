@@ -27,3 +27,12 @@ const {
   // Missing trailing comma
   prop_3: prop3
 } = someProps;
+
+const inlineObject = { inlineProp1: '', inlineProp2: '', inlineProp3: '' };
+
+const {
+  inlineProp1, inlineProp2, inlineProp3,
+} = inlineObject;
+
+const { inlineProp1: inlineProp1b, // Expected a line break after this opening brace
+  inlineProp2: inlineProp2b, inlineProp3: inlineProp3b } = inlineObject; // Expected a line break before this closing brace
