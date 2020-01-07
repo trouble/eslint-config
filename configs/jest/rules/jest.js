@@ -10,7 +10,7 @@ module.exports = {
     'jest/no-expect-resolves': 'error',
     'jest/no-export': 'error',
     'jest/no-focused-tests': 'error',
-    'jest/no-hooks': 'error',
+    'jest/no-hooks': 'off',
     'jest/no-identical-title': 'error',
     'jest/no-if': 'error',
     'jest/no-jasmine-globals': 'error',
