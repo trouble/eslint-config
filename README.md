@@ -18,7 +18,7 @@ $ yarn add --dev <dependency>@<version> # for each dependency in the above outpu
 
 ### Usage
 
-There are a number of configurations for consumption, all of which are packaged together as the default export &mdash; *or they can be selectively extended, which prevents the pathnames [from being written shorthand](https://eslint.org/docs/developer-guide/shareable-configs#sharing-multiple-configs).*
+There are a number of configurations for consumption, all of which are packaged together as the default export &mdash; *or they can be selectively extended, which prevents the path names [from being written shorthand](https://eslint.org/docs/developer-guide/shareable-configs#sharing-multiple-configs).*
 
 ```javascript
 {

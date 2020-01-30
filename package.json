@@ -38,6 +38,16 @@
     "eslint-plugin-jest-dom": "^1.4.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.6"
+  },
+  "lint-staged": {
+    "*.js": "yarn lint"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
   }
 }
