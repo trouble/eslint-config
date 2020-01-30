@@ -7,6 +7,11 @@ module.exports = {
     'react-hooks',
     'react',
   ],
+  settings: {
+    react: {
+      version: 'detect',
+    },
+  },
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
