@@ -1,8 +1,8 @@
 module.exports = {
   extends: [
-    './configs/base',
-    './configs/jest',
-    './configs/react',
+    './base',
+    './jest',
+    './react',
   ].map(require.resolve),
   rules: {},
 };
