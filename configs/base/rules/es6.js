@@ -14,7 +14,7 @@ module.exports = {
     // enforces no braces where they can be omitted
     // https://eslint.org/docs/rules/arrow-body-style
     'arrow-body-style': ['error', 'as-needed', {
-      requireReturnForObjectLiteral: true,
+      requireReturnForObjectLiteral: false,
     }],
 
     // require parens in arrow function arguments
