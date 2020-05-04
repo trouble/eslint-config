@@ -4,14 +4,18 @@
 
 # JavaScript Style Guide
 
-Please do not feed the dust bunnies.
+## Highlights
 
 ## Quick Start
 
 ### Installation
 
 ```bash
-$ yarn add @trbl/eslint-config --dev
+$ npm i --save-dev @trbl/react-collapsibles
+$ npm info @trbl/react-collapsibles peerDependencies
+$ npm i --save-dev <dependency>@<version> # for each dependency in the above output
+$ # or
+$ yarn add --dev @trbl/eslint-config
 $ yarn info @trbl/eslint-config peerDependencies
 $ yarn add --dev <dependency>@<version> # for each dependency in the above output
 ```
@@ -32,13 +36,15 @@ There are a number of configurations for consumption, all of which are packaged 
 }
 ```
 
+For working examples, see the [demo app](./demo/App.demo.js).
+
 ## Demo
 
-To demo locally, clone the repo and
-
 ```bash
+$ git clone git@github.com:trouble/react-collapsibles.git
 $ yarn
 $ yarn demo
+$ open http://localhost:3000
 ```
 
 ## Contribution
