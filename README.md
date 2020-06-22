@@ -11,8 +11,8 @@
 ### Installation
 
 ```bash
-$ npm i --save-dev @trbl/react-collapsibles
-$ npm info @trbl/react-collapsibles peerDependencies
+$ npm i --save-dev @trbl/eslint-config
+$ npm info @trbl/eslint-config peerDependencies
 $ npm i --save-dev <dependency>@<version> # for each dependency in the above output
 $ # or
 $ yarn add --dev @trbl/eslint-config
@@ -36,12 +36,26 @@ There are a number of configurations for consumption, all of which are packaged 
 }
 ```
 
+If using Webpack, install and configure `eslint-loader` to have loaded files automatically linted.
+
+```javascript
+{
+  test: /\.js$/,
+  exclude: /node_modules/,
+  loader: 'eslint-loader',
+  options: {
+    fix: true,
+    emitWarning: true,
+  },
+}
+```
+
 For working examples, see the [demo app](./demo/App.demo.js).
 
 ## Demo
 
 ```bash
-$ git clone git@github.com:trouble/react-collapsibles.git
+$ git clone git@github.com:trouble/eslint-config.git
 $ yarn
 $ yarn demo
 $ open http://localhost:3000
