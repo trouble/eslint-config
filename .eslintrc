@@ -1,6 +1,9 @@
 {
   // "extends": "./"
-  "extends": "./configs/base"
-  // "extends": "./configs/jest"
-  // "extends": "./configs/react"
+  "extends": "./configs/base",
+  // "extends": "./configs/jest",
+  // "extends": "./configs/react",
+  "env": {
+    "node": true
+  }
 }
