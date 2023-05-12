@@ -1,6 +1,6 @@
 {
   "name": "@trbl/eslint-config",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "main": "configs/index.js",
   "repository": "git@github.com:trouble/eslint-config.git",
   "description": "Please do not feed the dust bunnies.",
